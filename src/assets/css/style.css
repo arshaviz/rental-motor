@@ -1,0 +1,169 @@
+*:focus {
+    outline: none;
+  }
+  
+  html {
+    min-width: 400px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #97bf0f 0%, #97bf0f 100%);
+  }
+  
+  a {
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover,
+  a:focus {
+    border: 0;
+    text-decoration: none;
+  }
+  
+  .btn-customized {
+    background: #00a5ff;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: none;
+  }
+  
+  .btn-customized:hover,
+  .btn-customized:focus {
+    border: 1px solid #00a5ff;
+    background-color: white;
+    color: #00a5ff;
+    outline: 0;
+  }
+  
+  .login-clean {
+    background: #f1f7fc;
+    padding: 80px 0;
+  }
+  
+  .login-clean form {
+    max-width: 320px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-clean .illustration {
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 100px;
+    color: #f4476b;
+  }
+  
+  .login-clean form .form-control {
+    background: #f7f9fc;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: 0;
+    color: inherit;
+    text-indent: 8px;
+    height: 42px;
+  }
+  
+  .login-clean form .btn-primary {
+    background: #f4476b;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+    outline: 0 !important;
+  }
+  
+  .login-clean form .btn-primary:active,
+  .login-clean form .btn-primary:hover {
+    background: #eb3b60;
+  }
+  
+  .login-clean form .btn-primary:active {
+    transform: translateY(1px);
+  }
+  
+  .login-clean form .forgot {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none;
+  }
+  
+  .login-clean form .forgot:active,
+  .login-clean form .forgot:hover {
+    opacity: 1;
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    color: #313437;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  @media (max-width: 767px) {
+    .social-icons {
+      padding: 50px 0;
+    }
+  }
+  
+  .social-icons i {
+    font-size: 16px;
+    display: inline-block;
+    color: #313437;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+  }
+  
+  .card {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  
+  .table td,
+  .table th {
+    padding: 0.55rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  

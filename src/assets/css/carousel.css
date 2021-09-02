@@ -1,0 +1,8 @@
+.arrow::before {
+  font-size: 35px;
+  color: #00a5ff
+}
+
+.slick-prev {
+  left: -40px;
+}
